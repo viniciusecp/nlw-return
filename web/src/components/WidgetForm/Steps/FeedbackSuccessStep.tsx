@@ -1,7 +1,7 @@
 import { CloseButton } from '../../CloseButton';
 
 interface FeedbackSuccessStepProps {
-  onFeedbackRestartRequested: () => {};
+  onFeedbackRestartRequested: () => void;
 }
 
 export function FeedbackSuccessStep({ onFeedbackRestartRequested }: FeedbackSuccessStepProps) {
